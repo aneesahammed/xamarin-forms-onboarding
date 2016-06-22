@@ -14,6 +14,10 @@ using Android.Widget;
 
 namespace OnBoard
 {
+	/// <summary>
+	/// First fragment.
+	/// Fragments displayed by ViewPager must use the support-library Fragment class as their base.
+	/// </summary>
 	public class FirstFragment : Android.Support.V4.App.Fragment
 	{
 		public override void OnCreate (Bundle savedInstanceState)

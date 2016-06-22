@@ -1,14 +1,17 @@
-﻿using Android.App;
-using Android.Widget;
+﻿using System;
+using Android.App;
+using Android.Graphics;
 using Android.OS;
 using Android.Support.V4.App;
 using Android.Support.V4.View;
-using System;
-using Android.Graphics;
 using Android.Views;
+using Android.Widget;
 
 namespace OnBoard
 {
+	/// <summary>
+	/// Activities that host a ViewPager use the support-library FragmentActivity class as their base
+	/// </summary>
 	[Activity (Theme = "@style/Theme.NoTitle",Label = "OnBoard", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Android.Support.V4.App.FragmentActivity,Android.Support.V4.View.ViewPager.IOnPageChangeListener
 	{
@@ -32,7 +35,12 @@ namespace OnBoard
 			};
 
 			var viewPager = FindViewById<Android.Support.V4.View.ViewPager> (Resource.Id.myPager);
+
+			//inherit a SupportFramentManager property that gives support version of FragmentManager which ViewPager needs
+			//Instantiate an adapter and load into ViewPager
 			viewPager.Adapter = new SlideAdapter (base.SupportFragmentManager, fragments);
+
+			//listen for page change
 			viewPager.AddOnPageChangeListener (this);
 			int selectedPos = viewPager.CurrentItem;
 
@@ -82,25 +90,31 @@ namespace OnBoard
 
 
 
-	//adapter class
+	/// <summary>
+	/// Slide adapter.
+	/// Adapter provides your pages to the ViewPager
+	/// You can either derive from FragmentPagerAdapter or FragmentStatePagerAdapter
+	/// FragmentStatePagerAdapter conserves memory by destroying Fragments that are not visible to the user.
+	/// </summary>
 	class SlideAdapter : FragmentStatePagerAdapter
 	{
 		Android.Support.V4.App.Fragment [] _fragments;
 
-
+		//must pas a support FragmentManager to your adapter's base
 		public SlideAdapter (Android.Support.V4.App.FragmentManager fm,
 							Android.Support.V4.App.Fragment [] fragments) : base (fm)
 		{
 			this._fragments = fragments;
 		}
 
-
+		//No of Fragments
 		public override int Count {
 			get {
 				return _fragments.Length;
 			}
 		}
 
+		//Fragment at the given position
 		public override Android.Support.V4.App.Fragment GetItem (int position)
 		{
 			return _fragments [position];
@@ -109,7 +123,7 @@ namespace OnBoard
 
 
 
-	//end of namespace
+
 }
 
 
