@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+	<drawable name="yellow">#77ffff00</drawable>
+	
+	
+    <drawable name="translucent_background">#e0000000</drawable>
+    
+
+    <color name="solid_red">#FF000000</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffffff00</color>
+
+
+<color name="black">#ff000000</color>
+<color name="gray">#808080</color>
+<color name="white">#FFFFFF</color>
+<color name="transparent">#00000000</color>
+<color name="gray_silver">#C0C0C0</color>
+<color name="text_header1">#000066</color>
+<color name="text_header2">#000066</color>
+<color name="text_color_dark">#000066</color>
+<color name="login_dialog_background">#FFEEFFFF</color>
+
+	<!-- 		THEME UI PROPERTIES 			-->
+	
+	<!-- <color name="osb_screen_bg">#F6F9F3</color> -->
+	<color name="osb_screen_bg">#FFFFFF</color>
+	
+	<color name="osb_font_black">#000000</color>
+	<color name="osb_font_white">#FFFFFF</color>
+	<color name="osb_font_light_gray">#9E9E9C</color>
+	
+	<color name="osb_green_light">#87AC52</color>
+	<color name="osb_green_dark">#62862D</color>
+	
+	<color name="osb_section_bg">#D6D6D6</color>
+	<color name="osb_section_font">#797979</color>
+	
+	<color name="osb_list_separator">#DADAD9</color>
+	<color name="osb_pending_status_layout">#3F3F3F</color>
+	<color name="osb_error_title_bg">#BE0E0E</color>
+	
+	<color name="osb_login_button_disabled_bg">#BABAB8</color>
+	<color name="osb_login_button_enabled_bg">#787878</color>
+	<color name="osb_login_link_font">#77A240</color>
+	<color name="osb_login_button_disabled_font">#DDDDDB</color>
+	<color name="osb_login_button_enabled_font">#FFFFFF</color>
+	
+	<color name="osb_list_font_big">#282828</color>
+	<color name="osb_list_font_small">#9E9E9E</color>
+	
+	<color name="osb_music_button">#77A240</color>
+	
+	<color name="osb_passcode_btn_color">#3F3F3F</color>
+	<color name="osb_passcode_btn_font_color">#FFFFFF</color>
+	<color name="osb_passcode_btn_divider">#525252</color>
+	
+	<color name="osb_favorite_no_file_desc_bg">#F9F9F9</color>
+	
+	<color name="osb_music_player_seek_color">#77A240</color>
+	<color name="osb_music_player_seek_bg">#D6D6D6</color>
+	
+	<color name="osb_list_selector_bg">#62862D</color>
+	
+	<color name="osb_font_progress_text">#262626</color>
+	
+	<color name="osb_search_text_bg">#DFDFDF</color>
+
+	<color name="osb_search_button_enable_bg">#787878</color>
+	<color name="osb_search_button_disable_bg">#D6D6D6</color>
+	
+	<color name="osb_intro_sign_in_button_enable_bg">#E8E8E8</color>
+	<color name="osb_intro_sign_up_button_enable_bg">#4D6581</color>
+</resources>

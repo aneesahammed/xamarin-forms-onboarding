@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="window_title_height">34dp</dimen>
+    
+    <dimen name="list_item_top_bottom_padding">3dp</dimen>
+    <dimen name="text_size_list_normal">16sp</dimen>
+    <dimen name="text_size_list_small">14sp</dimen>
+    <dimen name="text_size_screen_header">18sp</dimen>
+    <dimen name="text_size_dialog_header">18sp</dimen>
+    <dimen name="text_size_section_header">16sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="text_size_xlarge">32sp</dimen>
+    <dimen name="text_size_button">16sp</dimen>
+    
+    <dimen name="text_size_auto_sync_dialog_header">20sp</dimen>
+    <dimen name="text_size_auto_sync_dialog">15sp</dimen>
+    <dimen name="text_size_passcode_edit">40sp</dimen>
+    <dimen name="text_size_passcode_button">18sp</dimen>
+    <dimen name="text_size_passcode_button_large">22sp</dimen>
+    
+    <dimen name="text_size_favorite_no_file">14sp</dimen>
+    
+    <dimen name="thumbSize">72dp</dimen>
+    <dimen name="thumbPadding">3dp</dimen>
+    <dimen name="gallery_header_padding">5dp</dimen>
+    
+    <dimen name="photo_crop_width">280dp</dimen>
+    <dimen name="photo_crop_stroke_width">1dp</dimen>
+    <dimen name="photo_preview_size">150dp</dimen>
+    <dimen name="photo_page_margin">5dp</dimen>
+    
+    <dimen name="list_margin_left">18dp</dimen>
+    
+    <dimen name="text_size_music_title">20sp</dimen>
+    <dimen name="text_size_music_title_large">28sp</dimen>
+    
+    <dimen name="dialog_header_top_bottom_padding">5dp</dimen>
+    
+    <dimen name="toast_top_padding">75dp</dimen>
+    
+    <dimen name="quick_action_padding">5dp</dimen>
+</resources>
