@@ -1,5 +1,6 @@
-# XamarinAndroid_Onboarding-
-Onboarding flow for Android
+# XamarinAndroid_Onboarding
+
+Simple Onboarding flow experience for Android in Xamarin.Android
 
 #
 ![Onboarding](https://dl.dropboxusercontent.com/u/3085879/Works/gihub/xamarin/onboarding.gif)
